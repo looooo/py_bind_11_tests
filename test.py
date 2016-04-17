@@ -14,3 +14,6 @@ sub_obj = subclass()
 
 print(sub_obj.test_foo())
 print(obj.test_foo())
+
+c = pybi_test.C()
+print(c.B_objects[0].A_objects[0])

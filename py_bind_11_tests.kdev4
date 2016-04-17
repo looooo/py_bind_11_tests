@@ -1,0 +1,3 @@
+[Project]
+Manager=KDevCMakeManager
+Name=py_bind_11_tests

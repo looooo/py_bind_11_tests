@@ -12,5 +12,6 @@ find_package(PythonLibs ${py})
 include_directories( ${PYTHON_INCLUDE_DIRS})
 
 PYTHON_ADD_MODULE(pybi_test SHARED pybi_test.cpp)
+PYTHON_ADD_MODULE(pybi_oo_test SHARED pybi_oo_test.cpp)
 
 configure_file(test.py test.py COPYONLY)
