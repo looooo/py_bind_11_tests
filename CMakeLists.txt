@@ -13,5 +13,6 @@ include_directories( ${PYTHON_INCLUDE_DIRS})
 
 PYTHON_ADD_MODULE(pybi_test SHARED pybi_test.cpp)
 PYTHON_ADD_MODULE(pybi_oo_test SHARED pybi_oo_test.cpp)
+PYTHON_ADD_MODULE(pybi_memory_problems SHARED pybi_memory_problems.cpp)
 
 configure_file(test.py test.py COPYONLY)

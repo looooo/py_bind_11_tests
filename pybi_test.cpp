@@ -30,6 +30,7 @@ public:
         }
     }
     vector<A*> get_all(){return this->A_objects;}
+    int c = 0;
 };
 
 class C{
