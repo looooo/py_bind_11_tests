@@ -2,6 +2,7 @@
 #include <pybind11/stl.h>
 
 #include <vector>
+#include <memory>
 
 namespace py = pybind11;
 
