@@ -1,15 +1,4 @@
-#include <iostream>
-
 #include <pybind11/pybind11.h>
-#include <pybind11/stl.h>
-#include <pybind11/operators.h>
-
-#include <vector>
-#include <tuple>
-#include <map>
-
-#include <string.h>
-#include <typeinfo>
 
 using namespace std;
 namespace py = pybind11;
